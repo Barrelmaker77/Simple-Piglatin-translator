@@ -5,7 +5,7 @@ Name: Totally perfect pig latin translator
 '''
 
 
-#https://stackoverflow.com/a/11050766
+
 #Re used to split user inputted string into induvidual words based off of dashes and spaces.
 import re
 #Introduce the program to the user
@@ -29,8 +29,7 @@ while True: # main loop
 
 
   
-  #https://docs.python.org/3/library/re.html
-  #learned about re.: splits string when either a space or dash is detected.
+
   #trying to only "capture" the dash results in an error, so I 
    #wrapped the space in parentheses too.
   splitwords = re.split("( |-)", UserInput)
